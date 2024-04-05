@@ -1,6 +1,7 @@
 body {
   background: #808080;
   display: flex;
+  list-style-type: none;
   align-items: center;
   justify-content: center;
   margin: 50px;
@@ -137,8 +138,33 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+    
     body {
-        display:list-item;
-        height: 50vh;
+      background: #808080;
+      height: 50vh;
+      display: list-item;
+      align-items: center;
+      justify-content: center;
+      margin: 50px 50px;
+    }
+    .modal-content {
+      background-color: #eff1f3;
+      padding-top: 20px;
+      border: 1px solid #888;
+      width: auto;
+      height: auto;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .fa {
+      padding: 20px;
+      font-size: 120px;
+      width: 70%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      text-decoration: none;
     }
   }
